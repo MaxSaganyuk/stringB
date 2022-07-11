@@ -17,4 +17,4 @@ Problem is not difficult, but a good solution, in my opinion, would be creating 
 
 We get something like this (tester.cpp):
 
-<img src="readMeImages\1.png"></img>
+<img src="readMe\1.png"></img>
