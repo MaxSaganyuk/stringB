@@ -109,7 +109,6 @@ public:
     }
 
 
-
     void swap(std::string& str);
 
     void resize(size_t n);
@@ -128,3 +127,10 @@ public:
     void setFlagAt(int index);
     void setFlagAt(int index, bool newFlag);
 };
+
+stringB operator+(stringB            lhs, char                rhs);
+stringB operator+(char               lhs, stringB             rhs);
+stringB operator+(stringB            lhs, const char*         rhs);
+stringB operator+(const char*        lhs, stringB             rhs);	
+stringB operator+(stringB            lhs, const std::string&  rhs);
+stringB operator+(const std::string& lhs, stringB             rhs);

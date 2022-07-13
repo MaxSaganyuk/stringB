@@ -14,6 +14,10 @@ int main(){
 	a.erase(rand() % a.size(), 1);
 	
 	std::cout << a << "\n";
-	a.printIds();	
+	a.printIds();
+
+	a = 'a' + a;
+	std::cout << a << "\n";
+	a.printIds();
 	
 }
