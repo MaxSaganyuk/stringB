@@ -241,6 +241,11 @@ void stringB::printIds() {
     std::cout << "\n";
 }
 
+void stringB::printFlags(){
+    for(int i = 0; i < IBvect.size(); ++i) std::cout << IBvect[i].flag << " ";
+    std::cout << "\n";
+}
+
 int stringB::giveIdAt(int index)     { return (IBvect[index].id); }
 bool stringB::giveFlagAt(int index)  { return (IBvect[index].flag); }
 void stringB::setFlagAt(int index) {IBvect[index].flag = !IBvect[index].flag; }

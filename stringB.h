@@ -120,6 +120,7 @@ public:
     void pop_back();
     
     void printIds();
+    void printFlags();
 
     int giveIdAt(int index);
     bool giveFlagAt(int index);
